@@ -1,0 +1,20 @@
+rpc_url = "https://polygon-mainnet.g.alchemy.com/v2/niWmJ_Wjd4JKtKzvdQOcl"    # replace with your Polygon RPC URL
+poll_interval_secs = 10
+trade_size_usdc = 500.0
+min_profit_usdc = 1.0
+
+[[dexes]]
+name = "quickswap"
+router = "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff"
+
+[[dexes]]
+name = "sushiswap"
+router = "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506"
+
+[[tokens]]
+symbol = "WETH"
+address = "0x7ceB23fD6bC... (WETH on Polygon)"
+
+[[pairs]]
+base  = "WETH"
+quote = "USDC"
